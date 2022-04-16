@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pparisot\\.nuget\\packages\\": {}
+    "/home/ppari/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pparisot\\Repos\\CSharpPlayground\\CSharpPlayground.csproj",
+      "projectUniqueName": "/home/ppari/Repos/Symmetrical-Difference/CSharpPlayground.csproj",
       "projectName": "CSharpPlayground",
-      "projectPath": "C:\\Users\\pparisot\\Repos\\CSharpPlayground\\CSharpPlayground.csproj",
-      "packagesPath": "C:\\Users\\pparisot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pparisot\\Repos\\CSharpPlayground\\obj\\",
+      "projectPath": "/home/ppari/Repos/Symmetrical-Difference/CSharpPlayground.csproj",
+      "packagesPath": "/home/ppari/.nuget/packages/",
+      "outputPath": "/home/ppari/Repos/Symmetrical-Difference/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pparisot\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/ppari/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

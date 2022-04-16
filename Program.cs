@@ -12,6 +12,12 @@ SymetricalDifference.PrintUniqueNumbers(new List<int[]>(){
     new int[] {4,5,6}
 });
 
+Console.WriteLine("Third test case");
+SymetricalDifference.PrintUniqueNumbers(new List<int[]>(){
+    new int[] {1,2,2,3,4},
+    new int[] {1,5,5,6}
+});
+
 
 public static class SymetricalDifference
 {
@@ -21,7 +27,8 @@ public static class SymetricalDifference
     {
         foreach (var i in arrays)
         {
-            foreach (var j in i)
+            var tmp = i.Distinct();
+            foreach (var j in tmp)
             {
                 if (!UniqueInts.ContainsKey(j))
                 {
