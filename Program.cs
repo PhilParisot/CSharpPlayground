@@ -1,25 +1,25 @@
 ﻿
 Console.WriteLine("First test case");
-SymetricalDifference.PrintUniqueNumbers(new List<int[]>(){
+SymmetricalDifference.PrintUniqueNumbers(new List<int[]>(){
     new int[] {1,2,3},
     new int[] {1,3,4}
 });
 
 Console.WriteLine("Second test case");
-SymetricalDifference.PrintUniqueNumbers(new List<int[]>(){
+SymmetricalDifference.PrintUniqueNumbers(new List<int[]>(){
     new int[] {1,2,3},
     new int[] {1,3,4},
     new int[] {4,5,6}
 });
 
 Console.WriteLine("Third test case");
-SymetricalDifference.PrintUniqueNumbers(new List<int[]>(){
+SymmetricalDifference.PrintUniqueNumbers(new List<int[]>(){
     new int[] {1,2,2,3,4},
     new int[] {1,5,5,6}
 });
 
 
-public static class SymetricalDifference
+public static class SymmetricalDifference
 {
     static readonly Dictionary<int, bool> UniqueInts = new();
 
